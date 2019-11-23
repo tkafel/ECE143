@@ -1,7 +1,7 @@
 # ECE 143 Final Project
 
 ## File Structure
-There are .py files for each “question” that we wished to answer with our dataset. Each .py file manipulates the data in ways that show interesting information, such as which class is considered the “best” overall and if there is a correlation between grade received and professor recommendation. We have a Jupyter notebook that combines all of our visualizations. Our final presentation is saved as a .pdf file.
+There are .py files for each “question” that we wished to answer with our dataset. Each .py file manipulates the data in ways that show interesting information, such as which class is considered the “best” overall and if there is a correlation between grade received and professor recommendation. All of our visualizations are combined in the Jupyter notebook "ECE143 Final Project.ipynb". Our final presentation is saved as a .pdf file.
 
 ## How to Run Code
 The .py files can be ran in a terminal with the command “python3.7 <file>” where <file> is the .py file that you wish to run. The file can also be ran in the Python shell by using “import <file>”. Then type “<file>” to run the script. The Juptyer notebook can be ran in the Jupyter environment.
