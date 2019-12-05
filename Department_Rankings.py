@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import pandas as pd
 import numpy as np
@@ -75,10 +70,6 @@ cse_total = cse_grade_avg + cse_class_avg + cse_instr_avg - cse_study_avg
 mae_total = mae_grade_avg + mae_class_avg + mae_instr_avg - mae_study_avg
 beng_total = beng_grade_avg + beng_class_avg + beng_instr_avg - beng_study_avg
 
-
-# In[2]:
-
-
 # Create a bar chart with each total
 objects = ('ECE', 'CSE', 'MAE', 'BENG')
 y_pos = np.arange(len(objects))
@@ -96,4 +87,3 @@ plt.title('Best Ranked Departments')
 plt.ylim(100,175)
 
 plt.show()
-
