@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import pandas as pd
 import numpy as np
@@ -35,10 +30,6 @@ cse_avg = cse_total / len(cse)
 mae_avg = mae_total / len(mae)                                                                                       
 beng_avg = beng_total / len(beng)
 
-
-# In[2]:
-
-
 # Create a bar chart with each average
 objects = ('ECE', 'CSE', 'MAE', 'BENG')
 y_pos = np.arange(len(objects))
@@ -56,4 +47,3 @@ plt.title('Average Instructor Recommendation Percentage')
 plt.ylim(80,90)
 
 plt.show()
-
