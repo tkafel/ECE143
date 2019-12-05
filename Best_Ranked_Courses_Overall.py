@@ -2,25 +2,25 @@ import pandas as pd
 import numpy as np
 
 ##########################################################################################################
-# Script Name: Final_Project_Q1
+# Script Name: Best_Ranked_Courses_Overall
 # Script Description: This script is targeted to answer the first question in the
-#					  project proposal. After the proprocessing of the data we 
-#					  seperate the date in 4 dataframes based on 4 differnt departments.
-#					  A new column called "student ratio" is introduced for each dataframe.
-#					  Each dataframe is then grouped by based on the course number and
-#					  the one row from each group wiht the highest ratio is extracted.
-#					  This number indicates the one unique course with the most evaluations
+#					  project proposal: what are the best ranked courses overall in each department? 
+#                     After the proprocessing of the data we separate the date in 4 dataframes based on 4 
+#                     different departments. A new column called "student ratio" is introduced for each 
+#                     dataframe. Each dataframe is then grouped by based on the course number and
+#					  the one row from each group with the highest ratio is extracted.
+#					  This number indicates the one unique course with the most evaluations.
 #					  As a group we decided this would be the best way to get a fair answer 
-#					  for our question. Next we introduce a new column for the ranking criteria
+#					  for our question. Next, we introduce a new column for the ranking criteria.
 #					  In this column convert the grade recieved to a percentage value based on the
-#					  4.0 scale and sum it up with the "recommended class" and "recommended Instructor"
+#					  4.0 scale and sum it up with the "recommended class" and "recommended instructor"
 #					  column together. The course are then ranked based on this value and the top result
-#					  from each dataframe in our opinion would indiacte the best course ranked based on the 
-#					  3 critatia and the available feedback given by the students.
+#					  from each dataframe in our opinion would indicate the best course ranked based on the 
+#					  3 criteria and the available feedback given by the students.
 ###########################################################################################################
 
 ##########################################################################################################
-###########################USE THE PROPROCESSED DATA TO SEPERATE OUT DEPARTMENTS##########################
+########################## USE THE PREPROCESSED DATA TO SEPERATE OUT DEPARTMENTS #########################
 ##########################################################################################################
 
 #import the dataframe after the preprocessing script
@@ -52,7 +52,7 @@ mae_df.reset_index(inplace=True)
 
 
 ##########################################################################################################
-#######################################Main Analysis for the data#########################################
+###################################### Main Analysis for the data ########################################
 ##########################################################################################################
 
 #add a new column to the dataframe indicating the ratio of students who evaluated the course percentage
