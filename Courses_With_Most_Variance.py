@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 ##########################################################################################################
-# Script Name: Final_Project_Q3
+# Script Name: Courses_With_Most_Variance
 # Script Description: This script is targeted to answer the first question in the
 #                     project proposal. After the proprocessing of the data we 
 #                     seperate the date in 4 dataframes based on 4 differnt departments.
