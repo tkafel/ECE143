@@ -4,15 +4,39 @@ import numpy as np
 
 #define necessary functions for clean up
 def get_course_number(course):
+    '''
+    Extracts the course number from the given course
+    
+    :param course: The course that we want to extract the number from
+    :type course: str
+    :returns: str
+    '''
+    assert isinstance(course,str)
     course_num = course.split("-")
     return course_num[0]
 
 def get_course_description(course):
+    '''
+    Extracts the course description from the given course
+    
+    :param course: The course that we want the description of
+    :type course: str
+    :returns: str
+    '''
+    assert isinstance(course,str)
     course_description = course.split("-")
     final_course_description = course_description[1].split("(")
     return final_course_description[0]
 
 def grade_cleaner(grade):
+    '''
+    Extracts the grade number from the grade
+    
+    :param grade: The grade that we want the number from
+    :type grade: str
+    :returns: str
+    '''
+    assert isinstance(grade,str)
     temp =  grade.split("(")
     temp_grade = temp[1]
     temp_grade_2 = temp_grade.split(")")
@@ -20,10 +44,26 @@ def grade_cleaner(grade):
     return final_grade
 
 def percent_cleaner(percent):
+    '''
+    Extracts the percent number from the given percent string
+    
+    :param percent: The string that we want the percent number from
+    :type percent: str
+    :returns: str
+    '''
+    assert isinstance(percent,str)
     temp = percent.split(" ")
     return temp[0]
 
 def get_department(name):
+    '''
+    Extracts the department from the course number
+    
+    :param name: The course string
+    :type name: str
+    :returns: str
+    '''
+    assert isinstance(name,str)
     department = name.split(" ")
     return department[0]
 
