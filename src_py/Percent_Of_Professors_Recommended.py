@@ -1,3 +1,7 @@
+# Script Name: Percent_Of_Professors_Recommended.py
+# Description: This script finds the average percentage that professors are recommended across the 
+#              CSE, ECE, MAE, and Bioengineering departments. This is achieved by getting the average of
+#              instructor recommendations for each department.
 
 import pandas as pd
 import numpy as np
