@@ -5,6 +5,10 @@ Created on
 @author: Tony
 """
 
+# Script Name: Grade_Received_Versus_Professor_Recommendation.py
+# Description: This script finds whether there is a correlation between the average grade received 
+#              and the instructor recommendation percentage.
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
