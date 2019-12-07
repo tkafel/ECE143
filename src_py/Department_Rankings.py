@@ -1,3 +1,9 @@
+# Script Name: Department_Rankings.py
+# Description: This script splits the departments from our preprocessed dataset and calculates the 
+#              "best" department out of the ECE, CSE, MAE, and Bioengineering departments. This "best"
+#              is calculated by averaging all of the grades received, professor recommendations, class
+#              recommendations, and hours studied and combining all of them to find the department with 
+#              the highest score.
 
 import pandas as pd
 import numpy as np
